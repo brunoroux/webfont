@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "*.{js,jsx}": [
+  "src/*.{js,jsx}": [
     "prettier --list-different",
     "eslint --report-unused-disable-directives",
     "git add"
